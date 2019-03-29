@@ -1,0 +1,50 @@
+<view class="root">
+  <view class='tabs'>
+       <view class='item active'>
+       <text>个性推荐</text>
+       </view>
+        <view class='item'>
+       <text>歌单</text>
+       </view>
+        <view class='item'>
+       <text>主播电台</text>
+       </view>
+        <view class='item'>
+       <text>排行榜</text>
+       </view>
+  </view>
+  <view class='content'> 
+  <view class='slide'>
+  <image src='../../images/slide.png'></image>
+  </view>
+  <view class='portas'>
+  <view class='item'>
+  <image src='../../images/04.png'></image>
+  <text>私人FM</text>
+  </view>
+  <view class='item'>
+  <image src='../../images/05.png'></image>
+  <text>每日歌曲推荐</text>
+  </view>
+  <view class='item'>
+  <image src='../../images/06.png'></image>
+  <text>云音乐新歌榜</text>
+  </view>
+  </view>
+  <view class='list'></view>
+  </view>
+  <view class='player'>
+      <view class='poster'>
+      <image src='../../images/poster.jpg'></image>
+      </view>
+      <view class='info'>
+         <text class='title'>一生所爱</text>
+         <text >谭咏麟</text>
+      </view>
+      <view class='controls'>
+           <image src='../../images/01.png'></image>
+           <image src='../../images/02.png'></image>
+           <image src='../../images/03.png'></image>
+      </view>
+  </view>
+</view>

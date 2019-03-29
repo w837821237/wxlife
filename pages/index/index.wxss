@@ -1,0 +1,72 @@
+page{
+  height: 100%;
+}
+.root{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.tabs{
+  background-color:#222;
+  display: flex;
+}
+.content {
+  flex: 1;
+  background-color:#111214;
+}
+.tabs .item {
+  flex: 1;
+  padding: 8px 0;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
+.item.active {
+  border-bottom: 2px solid red;
+}
+.player {
+  height: 50px;
+  background-color: #17181A;
+  display: flex;
+  flex-direction: row;
+}
+ .poster image{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+.info {
+  flex: 1;
+  color: #888;
+  font-size: 14px;
+}
+.info .title {
+  display: block;
+  font-size: 16px;
+  color: #ccc;
+}
+.controls image {
+   width: 40px;
+   height: 40px;
+   margin: 5px;  
+}
+.slide image {
+  width: 100%;
+  height: 130px;
+}
+.portas {
+ display: flex;
+}
+.portas .item {
+  flex: 1;
+  text-align: center;
+}
+.portas .item image {
+   width: 60px;
+   height: 60px;
+}
+.portas .item text {
+  display: block;
+  font-size: 13px;
+  color: #ccc;
+}
